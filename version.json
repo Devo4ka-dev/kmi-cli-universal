@@ -1,0 +1,73 @@
+{
+    "version": {
+      "bash": "1.0.0.0",
+      "powershell": "1.0.0.0"
+    },
+    "update_info": {
+      "changelog_url": "",
+      "download_url": {
+        "bash": "https://devo4ka-dev.github.io/kmi-cli-universal/kmi.sh",
+        "powershell": "https://devo4ka-dev.github.io/kmi-cli-universal/kmi.ps1"
+      },
+      "install_script": {
+        "bash": "https://devo4ka-dev.github.io/kmi-cli-universal/install.ps1.sh",
+        "powershell": "https://devo4ka-dev.github.io/kmi-cli-universal/install.ps1.sh"
+      },
+      "release_date": "2025-03-17",
+      "min_supported_version": {
+        "bash": "1.0.0.0",
+        "powershell": "1.0.0.0"
+      },
+      "force_update": false,
+      "auto_update": false
+    },
+    "cli_options": {
+      "check_update": {
+        "description": "Проверить наличие обновлений",
+        "bash": "--check-update",
+        "powershell": "-CheckUpdate"
+      },
+      "force_update": {
+        "description": "Принудительно обновить приложение",
+        "bash": "--force-update",
+        "powershell": "-ForceUpdate"
+      },
+      "silent_mode": {
+        "description": "Обновление без вывода в консоль",
+        "bash": "--silent",
+        "powershell": "-Silent"
+      }
+    },
+    "hashes": {
+      "bash": "SHA256-хеш kmi.sh",
+      "powershell": "SHA256-хеш kmi.ps1"
+    },
+    "messages": {
+      "update_available": {
+        "en": "A new update is available!",
+        "ru": "Доступно новое обновление!",
+        "uk": "Доступне нове оновлення!"
+      },
+      "update_required": {
+        "en": "You must update to continue using this application.",
+        "ru": "Вы должны обновиться, чтобы продолжить использование.",
+        "uk": "Ви повинні оновитися, щоб продовжити використання."
+      },
+      "update_success": {
+        "en": "Update installed successfully!",
+        "ru": "Обновление успешно установлено!",
+        "uk": "Оновлення успішно встановлено!"
+      },
+      "update_failed": {
+        "en": "Update failed. Please try again later.",
+        "ru": "Не удалось обновиться. Попробуйте позже.",
+        "uk": "Не вдалося оновитися. Спробуйте пізніше."
+      }
+    },
+    "metadata": {
+      "author": "A.K.",
+      "license": "Unlicense",
+      "last_modified": "2025-03-17"
+    }
+  }
+  
